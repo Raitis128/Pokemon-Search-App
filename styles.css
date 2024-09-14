@@ -1,0 +1,146 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    min-height: 100vh;
+    overflow: auto;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f0f8ff;
+    background-color: #fcf7d9;
+}
+
+header, main {
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #274c6d;
+    width: 50%;
+    border-radius: 2rem;
+    max-width: 50rem;
+}
+
+header {
+    margin-top: 3rem;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+label {
+    display: block;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 1rem 0;
+}
+
+.input-container {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+#search-input {
+    height: 3rem;
+    margin-right: 1rem;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+#search-button {
+    border-radius: 1rem;
+    border: 0;
+    background-color: #add8e6;
+    padding: 0 2rem;
+    font-weight: bold;
+}
+
+#search-button:hover {
+    -webkit-box-shadow: 0px 0px 10px 0px #386f80;
+    -moz-box-shadow: 0px 0px 10px 0px #386f80;
+    box-shadow: 0px 0px 10px 0px #386f80;
+}
+
+.pokemon-image {
+    background-color: #d0e9e0;
+    padding: 1rem;
+    margin: 2rem 2rem;
+    min-height: 32.5rem;
+    color: #3b3333;
+}
+
+.pokemon-image section {
+    margin-bottom: 1rem;
+}
+
+#pokemon-name, #pokemon-id {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#pokemon-name {
+    padding-right: 1rem;
+    text-transform: uppercase;
+}
+
+#weight, #height {
+    font-size: 1.5rem;
+}
+
+#weight {
+    margin-right: 1rem;
+}
+
+#sprite {
+    width: 20rem;
+    height: 20rem;
+    display: block;
+    margin: 0 auto;
+    visibility: hidden;
+}
+
+li {
+    list-style: none;
+    font-size: 2rem;
+    display: inline;
+    margin-right: 1rem;
+    background-color: #63e980;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+.pokemon-table {
+    margin: 2rem 2rem;
+}
+
+table, thead, tbody {
+    width: 100%;
+    text-align: center;
+}
+
+th, td {
+    background-color: #c081bf;
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}
+
+@media only screen and (max-width: 70rem) {
+    header, main {
+        width: 100%;
+        border-radius: 0;
+    }
+}
