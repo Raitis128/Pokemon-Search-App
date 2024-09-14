@@ -31,16 +31,16 @@ This project is a Pokémon search application that allows users to search for de
 #### Get all items
 
 ```http
-  GET https://pokeapi.co/api/v2/pokemon/
+  https://pokeapi.co/api/v2/pokemon/
 ```
 
 #### Get item
 
 ```http
-  GET https://pokeapi-proxy.freecodecamp.rocks/api/pokemon/${id}
+  https://pokeapi-proxy.freecodecamp.rocks/api/pokemon/${id}
 ```
 
 ## Demo
 
-Insert gif or link to demo
+[Pokemon Search App](https://iziks-pokemon-app.netlify.app/)
 
